@@ -7,12 +7,22 @@
   font-family: "Montserrat";
   color: black;
 }
+
+@viewport {
+  width: device-width;
+  initial-scale: 1;
+}
+
+
+
 html, body {
   min-height: 100%;
 }
 body {
   background: white;
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
 }
 p {
   margin: 16px auto;
@@ -96,4 +106,26 @@ footer p{
   text-align: center;
   color: #bbb;
   margin: 40px auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .layout {
+    width: 95%;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links a {
+    margin: 10px 0;
+  }
+
+  .login-btn,
+  .Get-Demo-btn {
+    margin: 10px 0;
+    width: 100%;
+  }
 }
