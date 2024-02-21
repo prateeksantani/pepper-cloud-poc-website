@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: black;
+}
+html, body {
+  min-height: 100%;
+}
+body {
+  background: white;
+  background-repeat: no-repeat;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+  margin-left: 5%;
+}
+
+.main-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.login-btn{
+  height: 60%;
+  width: 15%;
+  font-size: 18px;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.Get-Demo-btn{
+  color: white;
+  height: 60%;
+  width: 15%;
+  font-size: 18px;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ff7A49;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn{
+  margin-left: 5%;
+   color: white;
+  height: 50px;
+  width: 15%;
+  font-size: 18px;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ff7A49;
+  border-radius: 5px;
+  border: none;
+}
+
+h1,h2,h3{
+  margin-left: 5%;
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px auto;
+}
+nav .links {
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-right: 50px;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+nav a:hover {
+  border-color: white;
+}
+footer p{
+  text-align: center;
+  color: #bbb;
+  margin: 40px auto;
+}
